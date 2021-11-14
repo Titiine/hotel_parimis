@@ -79,10 +79,10 @@ h2 {
   color:black;
   left: 15%;
   right: 60%;
-  top: 40%;
+  top: 30%;
   bottom: 60%;
-  width: 400px;
-  height: 85px;
+  width: 340px;
+  height: 250px;
   padding: 10px;
   overflow: hidden;
   right:0;
@@ -101,7 +101,7 @@ h2 {
   position: absolute;
   left: 15%;
   right: 60%;
-  top: 70%;
+  top: 68%;
   bottom: 30%;
   color:black;
   border-radius: 4px;
