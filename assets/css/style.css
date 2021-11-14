@@ -61,17 +61,6 @@ h2 {
 }
 
 
-.container {
-
-  position: relative;
-  width:400px;
-  height:400px;
-  background-color: green;
-  left:200px;
-  top:200px;
-}
-
-
 .text {
   display: flex;
   align-items: left;
@@ -143,10 +132,15 @@ h2 {
     height: 52px;
    }
 
+   .container{
+     height: 5000px;
+   }
+
  .bedroom{
-   background-color: #F2F2F2;
+    background-color: #F2F2F2;
  }
-  
+
+   
  .img{
   position: absolute;
   left: 60%;
