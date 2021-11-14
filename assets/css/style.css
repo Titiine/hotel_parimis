@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/*  Fichier style.scss : ne mettre que les imports ici */
+/*  Fichier scss de variables */
+/*  Fichier scss de fonts */
+/*  Fichier scss principal (main) : La mise en forme générale se fait ici */
+
+
+/*  Fichier scss de mixin (bouts de code à rappeler, pour ne faire de duplication) */
+/*  Fichier scss pour le responsive (tablet) */
+/*  Fichier scss pour le responsive (desktop) *//*# sourceMappingURL=style.css.map */
+
+/**{box-sizing: border-box;}*/
+
+footer {
+  position: absolute;
+  width: 1600px;
+  height: 150px;
+    background-color:#F2F2F2;        
+
+  min-height: 50px;
+  border-top: 1px ;
+  bottom:0;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+
+
+footer .footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*justify-content: space-around;*/
+  gap: 3em;
+}
+
+footer .footer__social .footer__social-item {
+  font-size: 48px;
+  color: rgba(59, 89, 152, 0.5);
+  cursor: pointer;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+footer .footer__social .footer__social-item:hover {
+  color: #3b5998;
+}
+
+
+.sn{
+  display: flex;
+  justify-content: end;
+  align-items:flex-end;
+}
+
+h2 {
+  color:black;
+  text-align: center;
+  font-weight: 100;
+}
+
+
+.container {
+
+  position: relative;
+  width:400px;
+  height:400px;
+  background-color: green;
+  left:200px;
+  top:200px;
+}
+
+
+.text {
+  display: flex;
+  align-items: left;
+  position:absolute;
+  color:black;
+  left: 15%;
+  right: 60%;
+  top: 40%;
+  bottom: 60%;
+  width: 400px;
+  height: 85px;
+  padding: 10px;
+  overflow: hidden;
+  right:0;
+  bottom:10px;
+  background-color: #F2F2F2;
+}
+
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnON {
+  position: absolute;
+  left: 15%;
+  right: 60%;
+  top: 70%;
+  bottom: 30%;
+  color:black;
+  border-radius: 4px;
+}
+
+.btn{
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 48px;
+}
+
+.titfoot{
+  position: absolute;
+  left: 15%;
+  right: 60%;
+  top: 10%;
+  bottom: 0%;
+}
+
+ .copy{
+  position: absolute;
+  left: 15%;
+  right: 60%;
+  top: 45%;
+  bottom: 0%;
+ }
+
+ .title{
+  position: absolute;
+  left: 22%;
+  right: 60%;
+  top: 20%;
+  bottom: 30%;
+   }
+
+   h3{
+    width: 400px;
+    height: 52px;
+   }
+
+ .bedroom{
+   background-color: #F2F2F2;
+ }
+  
+ .img{
+  position: absolute;
+  left: 60%;
+  right: 60%;
+  top: 20%;
+  bottom: 30%;
+ }
+
+ .link{
+  position: absolute;
+  left: 60%;
+  right: 60%;
+  top: 20%;
+  bottom: 30%;
+ }
+
+ .fa-facebook {
+  position: absolute;
+  left: 60%;
+  right: 60%;
+  top: 45%;
+  bottom: 30%;
+ }
+
+ .fa-linkedin{
+  position: absolute;
+  left: 75%;
+  right: 60%;
+  top: 45%;
+  bottom: 30%;
+ }
+
+ .fa-twitter{
+  position: absolute;
+  left: 67.5%;
+  right: 60%;
+  top: 45%;
+  bottom: 30%;
+ }
