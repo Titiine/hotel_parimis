@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*  Fichier style.scss : ne mettre que les imports ici */
+/*  Fichier scss de variables */
+/*  Fichier scss de fonts */
+/*  Fichier scss principal (main) : La mise en forme générale se fait ici */
+.img {
+  display: flex;
+  align-items: right;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: green;
+  left: 200px;
+  top: 200px;
+}
+
+.text {
+  position: absolute;
+  color: white;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: red;
+  overflow: hidden;
+  right: 0;
+  bottom: 10px;
+}
+
+h2 {
+  color: coral;
+  text-align: center;
+  font-weight: 100;
+}
+
+/*  Fichier scss de mixin (bouts de code à rappeler, pour ne faire de duplication) */
+/*  Fichier scss pour le responsive (tablet) */
+/*  Fichier scss pour le responsive (desktop) *//*# sourceMappingURL=style.css.map */
