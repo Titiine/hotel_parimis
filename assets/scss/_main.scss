@@ -3,7 +3,7 @@
 
 .img{
     display: flex;
-    align-items: right;  
+    align-items: right;
 }
 
 
@@ -16,7 +16,7 @@
     top:200px;
   }
 
-  
+
   .text {
     position:absolute;
     color:white;
@@ -35,3 +35,15 @@
     text-align: center;
     font-weight: 100;
   }
+
+figure {
+  margin: 16px 0;
+  object-fit: contain;
+}
+
+img[alt*="image"] {
+  width: 100%;
+  height: auto;
+}
+
+section[data-id="hotel_introduction"] { background-color: #F2F3F5; }
