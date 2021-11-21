@@ -315,7 +315,7 @@ figure {
      object-fit: contain;
 }
 
-img[alt*="image"] {
+img[alt*="image_principale_hotel-parimis"] {
   width: 100%;
   height: auto;
 }
