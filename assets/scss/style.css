@@ -3,284 +3,309 @@
 /*  Fichier scss de variables */
 /*  Fichier scss de fonts */
 /*  Fichier scss principal (main) : La mise en forme générale se fait ici */
+.container {
+  display: flex;
+  width: 1600px;
+  height: 550px;
+  right: 130%;
+  left: 150%;
+  background-color: #F2F2F2;
+}
 
+footer {
+  position: absolute;
+  width: 1600px;
+  height: 150px;
+  background-color: #F2F2F2;
+  min-height: 50px;
+  top: 300%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+}
+
+/**footer .footer__social .footer__social-item {
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+footer .footer__social .footer__social-item:hover {
+  color: blue;
+}*/
+.sn {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-weight: 100;
+}
+
+.text {
+  display: flex;
+  align-items: left;
+  position: absolute;
+  color: black;
+  left: 15%;
+  right: 60%;
+  top: 30%;
+  bottom: 60%;
+  width: 340px;
+  height: 250px;
+  padding: 10px;
+  overflow: hidden;
+  right: 0;
+  bottom: 10px;
+  background-color: #F2F2F2;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnON {
+  position: absolute;
+  left: 15%;
+  right: 60%;
+  top: 68%;
+  bottom: 30%;
+  color: black;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 48px;
+}
+
+.titfoot {
+  position: absolute;
+  left: 15%;
+  right: 60%;
+  top: 5%;
+  bottom: 0%;
+}
+
+.copy {
+  position: absolute;
+  left: 15%;
+  right: 60%;
+  top: 45%;
+  bottom: 0%;
+}
+
+.title {
+  position: absolute;
+  left: 22%;
+  right: 60%;
+  top: 20%;
+  bottom: 30%;
+}
+
+h3 {
+  width: 400px;
+  height: 52px;
+}
+
+.img {
+  position: absolute;
+  left: 60%;
+  right: 60%;
+  top: 20%;
+  bottom: 30%;
+}
+
+.link {
+  position: absolute;
+  left: 60%;
+  right: 60%;
+  top: 20%;
+  bottom: 30%;
+}
+
+.fab {
+  position: absolute;
+  font-size: 20px;
+  left: 60%;
+  right: 60%;
+  top: 45%;
+  bottom: 30%;
+}
+
+.fab:hover {
+  color: orange;
+}
+
+.fa-facebook {
+  color: #3B5998;
+}
+
+.fa-linkedin {
+  position: absolute;
+  left: 75%;
+  right: 60%;
+  top: 45%;
+  bottom: 30%;
+}
+
+.fa-twitter {
+  position: absolute;
+  left: 67.5%;
+  right: 60%;
+  top: 45%;
+  bottom: 30%;
+}
+
+/**----------Chambre 2-------------------------*/
+.container1 {
+  display: flex;
+  width: 1600px;
+  height: 550px;
+  right: 30%;
+  left: 50%;
+  background-color: blue;
+  margin-top: 265px;
+}
+
+.text1 {
+  display: flex;
+  align-items: left;
+  position: absolute;
+  color: black;
+  left: 15%;
+  right: 60%;
+  top: 135%;
+  bottom: 20%;
+  width: 340px;
+  height: 250px;
+  padding: 10px;
+  overflow: hidden;
+  right: 0;
+  bottom: 10px;
+  background-color: #F2F2F2;
+}
+
+.btnON1 {
+  position: absolute;
+  left: 15%;
+  right: 60%;
+  top: 173%;
+  bottom: 20%;
+  color: black;
+  border-radius: 4px;
+}
+
+.btn1 {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 48px;
+}
+
+.title1 {
+  position: absolute;
+  left: 22%;
+  right: 60%;
+  top: 125%;
+  bottom: 30%;
+}
+
+.img1 {
+  position: absolute;
+  left: 60%;
+  right: 60%;
+  top: 150%;
+  bottom: 30%;
+}
+
+.img1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/**--------Chambre 3-----------------------------*/
+.container2 {
+  display: flex;
+  width: 1600px;
+  height: 550px;
+  top: 580%;
+  right: 30%;
+  left: 50%;
+  bottom: 100%;
+  background-color: red;
+  margin-top: 260px;
+}
+
+.text2 {
+  display: flex;
+  align-items: left;
+  position: absolute;
+  color: black;
+  left: 15%;
+  right: 60%;
+  top: 240%;
+  bottom: 60%;
+  width: 340px;
+  height: 250px;
+  padding: 10px;
+  overflow: hidden;
+  right: 0;
+  bottom: 10px;
+  background-color: #F2F2F2;
+}
+
+.btnON2 {
+  position: absolute;
+  left: 15%;
+  right: 60%;
+  top: 278%;
+  bottom: 30%;
+  color: black;
+  border-radius: 4px;
+}
+
+.btn2 {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 48px;
+}
+
+.title2 {
+  position: absolute;
+  left: 22%;
+  right: 60%;
+  top: 230%;
+  bottom: 30%;
+}
+
+.img2 {
+  position: absolute;
+  left: 60%;
+  right: 60%;
+  top: 255%;
+  bottom: 30%;
+}
+
+.img2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /*  Fichier scss de mixin (bouts de code à rappeler, pour ne faire de duplication) */
 /*  Fichier scss pour le responsive (tablet) */
 /*  Fichier scss pour le responsive (desktop) *//*# sourceMappingURL=style.css.map */
-
-footer {
-    position: absolute;
-    width: 1600px;
-    height: 150px;
-    background-color:#F2F2F2;        
-    min-height: 50px;
-    top: 300% ;
-    bottom:0;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    bottom: 0;
-  }
-  
-  
-  footer .footer__social .footer__social-item {
-    font-size: 20px;
-    color: rgba(59, 89, 152, 0.5);
-    cursor: pointer;
-    -webkit-transition-duration: 500ms;
-            transition-duration: 500ms;
-  }
-  
-  footer .footer__social .footer__social-item:hover {
-    color: #3b5998;
-  }
-  
-  
-  .sn{
-    display: flex;
-    justify-content: end;
-    align-items:flex-end;
-  }
-  
-  h2 {
-    color:black;
-    text-align: center;
-    font-weight: 100;
-  }
-  
-  
-  .text {
-    display: flex;
-    align-items: left;
-    position:absolute;
-    color:black;
-    left: 15%;
-    right: 60%;
-    top: 30%;
-    bottom: 60%;
-    width: 340px;
-    height: 250px;
-    padding: 10px;
-    overflow: hidden;
-    right:0;
-    bottom:10px;
-    background-color: #F2F2F2;
-  }
-  
-  
-  .img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .btnON {
-    position: absolute;
-    left: 15%;
-    right: 60%;
-    top: 68%;
-    bottom: 30%;
-    color:black;
-    border-radius: 4px;
-  }
-  
-  .btn{
-    background-color: black;
-    color: white;
-    width: 200px;
-    height: 48px;
-  }
-  
-  .titfoot{
-    position: absolute;
-    left: 15%;
-    right: 60%;
-    top: 5%;
-    bottom: 0%;
-  }
-  
-   .copy{
-    position: absolute;
-    left: 15%;
-    right: 60%;
-    top: 45%;
-    bottom: 0%;
-   }
-  
-   .title{
-    position: absolute;
-    left: 22%;
-    right: 60%;
-    top: 20%;
-    bottom: 30%;
-     }
-  
-     h3{
-      width: 400px;
-      height: 52px;
-     }
-  
-        
-   .img{
-    position: absolute;
-    left: 60%;
-    right: 60%;
-    top: 20%;
-    bottom: 30%;
-   }
-  
-   .link{
-    position: absolute;
-    left: 60%;
-    right: 60%;
-    top: 20%;
-    bottom: 30%;
-   }
-  
-   .fa-facebook {
-    position: absolute;
-    left: 60%;
-    right: 60%;
-    top: 45%;
-    bottom: 30%;
-   }
-  
-   .fa-linkedin{
-    position: absolute;
-    left: 75%;
-    right: 60%;
-    top: 45%;
-    bottom: 30%;
-   }
-  
-   .fa-twitter{
-    position: absolute;
-    left: 67.5%;
-    right: 60%;
-    top: 45%;
-    bottom: 30%;
-   }
-  
-   
-  /**----------Chambre 2-------------------------*/
-  
-  
-  
-  .text1 {
-    display: flex;
-    align-items: left;
-    position:absolute;
-    color:black;
-    left: 15%;
-    right: 60%;
-    top: 135%;
-    bottom: 20%;
-    width: 340px;
-    height: 250px;
-    padding: 10px;
-    overflow: hidden;
-    right:0;
-    bottom:10px;
-    background-color: #F2F2F2;
-  }
-  
-  
-  .btnON1 {
-    position: absolute;
-    left: 15%;
-    right: 60%;
-    top: 173%;
-    bottom: 20%;
-    color:black;
-    border-radius: 4px;
-  }
-  
-  .btn1{
-    background-color: black;
-    color: white;
-    width: 200px;
-    height: 48px;
-  }
-   .title1{
-    position: absolute;
-    left: 22%;
-    right: 60%;
-    top: 125%;
-    bottom: 30%;
-  
-     }
-  .img1{
-    position: absolute;
-    left: 60%;
-    right: 60%;
-    top: 150%;
-    bottom: 30%;
-   }
-  
-   .img1 {
-    display: flex;
-    align-items:center;
-    justify-content: center;
-  }
-  
-   
-  
-   /**--------Chambre 3-----------------------------*/
-  
-   .text2 {
-    display: flex;
-    align-items: left;
-    position:absolute;
-    color:black;
-    left: 15%;
-    right: 60%;
-    top: 240%;
-    bottom: 60%;
-    width: 340px;
-    height: 250px;
-    padding: 10px;
-    overflow: hidden;
-    right:0;
-    bottom:10px;
-    background-color: #F2F2F2;
-  }
-  
-  
-  .btnON2 {
-    position: absolute;
-    left: 15%;
-    right: 60%;
-    top: 278%;
-    bottom: 30%;
-    color:black;
-    border-radius: 4px;
-  }
-  
-  .btn2{
-    background-color: black;
-    color: white;
-    width: 200px;
-    height: 48px;
-  }
-   .title2{
-    position: absolute;
-    left: 22%;
-    right: 60%;
-    top: 230%;
-    bottom: 30%;
-  
-     }
-  .img2{
-    position: absolute;
-    left: 60%;
-    right: 60%;
-    top: 255%;
-    bottom: 30%;
-   }
-  
-   .img2 {
-    display: flex;
-    align-items:center;
-    justify-content: center;
-  }

@@ -1,6 +1,18 @@
 /*  Fichier scss principal (main) : La mise en forme générale se fait ici */
 
 
+
+.container {
+  display: flex;
+  width: 1600px;
+  height: 550px;
+  right: 130%;
+  left: 150%;
+  background-color: #F2F2F2; 
+}
+
+
+
 footer {
   position: absolute;
   width: 1600px;
@@ -16,17 +28,19 @@ footer {
 }
 
 
-footer .footer__social .footer__social-item {
+/**footer .footer__social .footer__social-item {
   font-size: 20px;
-  color: rgba(59, 89, 152, 0.5);
+  color: red;
   cursor: pointer;
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
 }
 
 footer .footer__social .footer__social-item:hover {
-  color: #3b5998;
-}
+  color: blue;
+}*/
+
+
 
 
 .sn{
@@ -130,13 +144,22 @@ h2 {
   bottom: 30%;
  }
 
- .fa-facebook {
+ .fab {
   position: absolute;
+  font-size: 20px;
   left: 60%;
   right: 60%;
   top: 45%;
   bottom: 30%;
- }
+  }
+
+  .fab:hover{
+    color: orange;
+  }
+
+  .fa-facebook {
+      color: #3B5998;
+    }
 
  .fa-linkedin{
   position: absolute;
@@ -157,7 +180,15 @@ h2 {
  
 /**----------Chambre 2-------------------------*/
 
-
+.container1 {
+  display: flex;
+  width: 1600px;
+  height: 550px;
+  right: 30%;
+  left: 50%;
+  background-color: blue;
+  margin-top: 265px;
+}
 
 .text1 {
   display: flex;
@@ -219,6 +250,18 @@ h2 {
  
 
  /**--------Chambre 3-----------------------------*/
+
+ .container2 {
+  display: flex;
+  width: 1600px;
+  height: 550px;
+  top: 580%;
+  right: 30%;
+  left: 50%;
+  bottom: 100%;
+  background-color: red;
+  margin-top: 260px;
+}
 
  .text2 {
   display: flex;
