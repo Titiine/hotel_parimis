@@ -144,24 +144,31 @@ h2 {
   bottom: 30%;
  }
 
- .fab {
+ /*.fab {
   position: absolute;
   font-size: 20px;
   left: 60%;
   right: 60%;
   top: 45%;
   bottom: 30%;
-  }
+  color: blue;
+  }*/
 
   .fab:hover{
     color: orange;
   }
 
   .fa-facebook {
-      color: #3B5998;
+  color: #3B5998;
+  position: absolute;
+  left: 60%;
+  right: 60%;
+  top: 45%;
+  bottom: 30%;
     }
 
  .fa-linkedin{
+  color: #3B5998;
   position: absolute;
   left: 75%;
   right: 60%;
@@ -170,8 +177,18 @@ h2 {
  }
 
  .fa-twitter{
+  color: #3B5998;
   position: absolute;
   left: 67.5%;
+  right: 60%;
+  top: 45%;
+  bottom: 30%;
+ }
+
+ .fa-instagram{
+  color: #3B5998;
+  position: absolute;
+  left: 82.5%;
   right: 60%;
   top: 45%;
   bottom: 30%;
@@ -186,7 +203,7 @@ h2 {
   height: 550px;
   right: 30%;
   left: 50%;
-  background-color: blue;
+  background-color: #F2F2F2;
   margin-top: 265px;
 }
 
@@ -259,7 +276,7 @@ h2 {
   right: 30%;
   left: 50%;
   bottom: 100%;
-  background-color: red;
+  background-color: #F2F2F2;
   margin-top: 260px;
 }
 
