@@ -361,7 +361,7 @@ figure[data-brand*="hotel_parimis"] button {
   right: 19%;
 }
 
-section[data-id="hotel_introduction"] {
+.bg-color_grey {
   background-color: #F2F3F5;
 }
 
