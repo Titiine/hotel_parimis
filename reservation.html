@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-16x16.png">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Réservation</title>
+    </head>
+
+    <body>
+    <main>
+
+    <h1>Réservez une chambre</h1>
+    <h3>Quand souhaitez-vous arriver ?</h3>
+    
+  <form action="contact.html" method="POST">
+    <fieldset>
+
+      <fieldset>        
+        <div id="containerForm1">
+            <div id="roomOpt">                
+                <label for="room">Chambre souhaitée : </label>
+                <select name="room" id="room">
+                    <option value="room1">Chambre supérieure 1</option>
+                    <option value="room2">Chambre supérieure 2</option>
+                    <option value="room3">Suite Azur</option>
+                </select>
+            </div>
+
+            <div id="inInput">
+                <label for="booking-in">Date d'arrivée : </label>
+                <input type="date" name="booking-in">
+            </div>
+            <div id="outInput">
+                <label for="booking-out">Date de départ : </label>
+                <input type="date" name="booking-out">
+            </div>
+
+            <!-- <div>
+                <label for="room">Chambre souhaitée : </label>
+                <label for="booking-in">Date d'arrivée : </label>
+                <label for="booking-out">Date de départ : </label>
+            </div>
+            <div>
+                <select name="room" id="room">
+                    <option value="room1">Chambre supérieure 1</option>
+                    <option value="room2">Chambre supérieure 2</option>
+                    <option value="room3">Suite Azur</option>
+                </select>
+
+                <input type="date" name="booking-in">
+                <input type="date" name="booking-out">
+
+            </div> -->
+          </div>
+
+        </fieldset>
+
+      <div>
+          <h3>Informations hôte</h3>
+          
+          <div>        
+            <input type="text" name="username" id="username" placeholder="Votre nom*" required>        
+            <input type="text" name="firstname" id="firstname" placeholder="Prénom*" required>
+        </div>
+
+        <div>
+            <input type="email" name="email" id="email" placeholder="Votre Email*" required>        
+            <input type="tel" name="tel" id="tel" placeholder="Téléphone*" required>            
+        </div>
+        <div>
+            <input type="text" name="adress" id="adress" placeholder="Adresse*" required>        
+            <input type="text" name="city" id="city" placeholder="Ville*" required>            
+        </div>
+
+        <div>
+            <h3>Moyen de paiement</h3>
+            <select name="payment" id="payment">
+                <option value="VISA">VISA</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Carte bleue">Carte bleue</option>
+            </select>
+        </div>
+        
+        
+
+      </div>
+      <!--<button type="submit">Envoyer</button>-->
+      <input role="button" type="submit" name="submit" value="Envoyer">
+      
+    </fieldset>
+  </form>
+</main>
+
+  <footer>
+    <!-- Hôtel Parimis with Copyright symbol & some social media links -->
+    <p>&copy; 2021 hotelparimis.fr</p>
+</footer>
+</body>
+</html>

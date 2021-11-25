@@ -280,3 +280,11 @@ img[alt*="image_principale_hotel-parimis"] {
 }
 
 section[data-id="hotel_introduction"] { background-color: #F2F3F5; }
+
+input, select{
+  margin: 0.5rem;
+}
+#containerForm1{
+  display: flex;
+  flex-direction: row;
+}
