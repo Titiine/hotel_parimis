@@ -365,6 +365,10 @@ figure[data-brand*="hotel_parimis"] button {
   background-color: #F2F3F5;
 }
 
+section[data-id="hotel_introduction"] {
+  text-align: center;
+}
+
 /*  Fichier scss de mixin (bouts de code à rappeler, pour ne faire de duplication) */
 /*  Fichier scss pour le responsive (tablet) */
 /*  Fichier scss pour le responsive (desktop) */
