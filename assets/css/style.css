@@ -338,6 +338,50 @@ input, select {
           flex-direction: row;
 }
 
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+}
+
+nav ul li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 14.9%;
+          flex: 1 0 14.9%;
+  background-color: white;
+  font-family: 'Roboto';
+  cursor: pointer;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  text-align: center;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li:hover, nav ul li.active {
+  background-color: black;
+  color: #daa520;
+}
+
+nav ul li:hover a, nav ul li.active a {
+  color: #daa520;
+}
+
 /*  Fichier scss de mixin (bouts de code à rappeler, pour ne faire de duplication) */
 /*  Fichier scss pour le responsive (tablet) */
 /*  Fichier scss pour le responsive (desktop) */

@@ -288,3 +288,43 @@ input, select{
   display: flex;
   flex-direction: row;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+
+  ul {
+      display: flex;
+      justify-content: space-around;
+      list-style-type: none;
+
+
+      li {
+          flex: 1 0 14.9%;
+          background-color: $background_menu_color;
+          //padding: 15px 0;
+          //line-height: 2;
+          font-family: 'Roboto';
+          cursor: pointer;
+          //border: 1px solid $primary_color;
+          transition-duration: $duration;
+          text-align: center;
+
+          a {
+              //display: block;
+              color: $background_text_menu_color;
+              text-decoration: none;
+              //font-size: 1.5em;
+          }
+
+          &:hover, &.active {
+              background-color: $background_text_menu_color;
+              color: $primary_color;
+
+              a {
+                  color: $primary_color;
+              }
+          }
+      }
+  }
+}
