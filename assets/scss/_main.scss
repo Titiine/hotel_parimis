@@ -268,12 +268,12 @@ h3 {
     justify-content: center;
 }
 
-figure[data-brand*="hotel_parimis"] {
+figure[data-brand="hotel_parimis"] {
     margin: 0 0 16px 0;
     object-fit: contain;
     position: relative;
 
-    img[alt*="image_principale_hotel-parimis"] {
+    img[alt="image_principale_hotel-parimis"] {
         width: 100%;
         height: auto;
     }
