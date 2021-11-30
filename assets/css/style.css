@@ -310,7 +310,7 @@ h3 {
           justify-content: center;
 }
 
-figure[data-brand*="hotel_parimis"] {
+figure[data-brand="hotel_parimis"] {
   margin: 0 0 16px 0;
   -o-object-fit: contain;
      object-fit: contain;
@@ -318,12 +318,12 @@ figure[data-brand*="hotel_parimis"] {
   /* Sub-title bloc */
 }
 
-figure[data-brand*="hotel_parimis"] img[alt*="image_principale_hotel-parimis"] {
+figure[data-brand="hotel_parimis"] img[alt="image_principale_hotel-parimis"] {
   width: 100%;
   height: auto;
 }
 
-figure[data-brand*="hotel_parimis"] figcaption h1 {
+figure[data-brand="hotel_parimis"] figcaption h1 {
   position: absolute;
   bottom: 34%;
   right: 9%;
@@ -333,20 +333,20 @@ figure[data-brand*="hotel_parimis"] figcaption h1 {
   font-weight: 600;
 }
 
-figure[data-brand*="hotel_parimis"] figcaption h1 + div {
+figure[data-brand="hotel_parimis"] figcaption h1 + div {
   position: absolute;
   bottom: 34%;
   right: 15.5%;
   /* Sub-title */
 }
 
-figure[data-brand*="hotel_parimis"] figcaption h1 + div strong {
+figure[data-brand="hotel_parimis"] figcaption h1 + div strong {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
 
-figure[data-brand*="hotel_parimis"] button {
+figure[data-brand="hotel_parimis"] button {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -366,6 +366,40 @@ figure[data-brand*="hotel_parimis"] button {
 }
 
 section[data-id="hotel_introduction"] {
+  text-align: center;
+}
+
+#email, #story {
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+#email {
+  width: 280px;
+  height: 40px;
+}
+
+.contact_flex-container {
+  margin-top: 39px;
+  text-align: center;
+}
+
+.contact_flex-item:first-child button {
+  color: #F2B827;
+  background-color: #000000;
+}
+
+.contact-btn {
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.common_contact-item {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  width: 360px;
+  height: 64px;
   text-align: center;
 }
 

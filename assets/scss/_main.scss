@@ -321,3 +321,37 @@ figure[data-brand="hotel_parimis"] {
 .bg-color_grey { background-color: #F2F3F5; }
 
 section[data-id="hotel_introduction"] { text-align: center; }
+
+#email, #story {
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+#email {
+    width: 280px;
+    height: 40px;
+}
+
+.contact_flex-container {
+    margin-top: 39px;
+    text-align: center;
+}
+
+.contact_flex-item:first-child button {
+    color: #F2B827;
+    background-color: #000000;
+}
+
+.contact-btn {
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.common_contact-item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 360px;
+    height: 64px;
+    text-align: center;
+}
