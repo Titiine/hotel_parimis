@@ -321,6 +321,7 @@ figure[data-brand="hotel_parimis"] {
 figure[data-brand="hotel_parimis"] img[alt="image_principale_hotel-parimis"] {
   width: 100%;
   height: auto;
+  vertical-align: middle;
 }
 
 figure[data-brand="hotel_parimis"] figcaption h1 {

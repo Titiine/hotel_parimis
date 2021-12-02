@@ -276,6 +276,7 @@ figure[data-brand="hotel_parimis"] {
     img[alt="image_principale_hotel-parimis"] {
         width: 100%;
         height: auto;
+        vertical-align: middle; //to remove white-space between img & figure bottom borders
     }
 
     figcaption h1 {
