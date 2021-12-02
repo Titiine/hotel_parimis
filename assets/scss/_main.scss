@@ -315,6 +315,8 @@ figure[data-brand="hotel_parimis"] {
         position: absolute;
         bottom: 17%;
         right: 19%;
+
+        &:active {opacity: 0.89;}
     }
 }
 

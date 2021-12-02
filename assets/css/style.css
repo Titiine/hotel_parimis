@@ -361,6 +361,10 @@ figure[data-brand="hotel_parimis"] button {
   right: 19%;
 }
 
+figure[data-brand="hotel_parimis"] button:active {
+  opacity: 0.89;
+}
+
 .bg-color_grey {
   background-color: #F2F3F5;
 }
