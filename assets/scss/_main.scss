@@ -1,17 +1,16 @@
 /*  Fichier scss principal (main) : La mise en forme générale se fait ici */
 
-
 footer {
   position: absolute;
   width: 1600px;
   height: 150px;
-  background-color:#F2F2F2;
+  background-color: #f2f2f2;
   min-height: 50px;
-  top: 300% ;
-  bottom:0;
+  top: 300%;
+  bottom: 0;
   display: flex;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   bottom: 0;
 }
 
@@ -30,11 +29,11 @@ footer .footer__social .footer__social-item:hover {
 .sn {
   display: flex;
   justify-content: end;
-  align-items:flex-end;
+  align-items: flex-end;
 }
 
 h2 {
-  color:black;
+  color: black;
   text-align: center;
   font-weight: 100;
 }
@@ -42,8 +41,8 @@ h2 {
 .text {
   display: flex;
   align-items: left;
-  position:absolute;
-  color:black;
+  position: absolute;
+  color: black;
   left: 15%;
   right: 60%;
   top: 30%;
@@ -52,9 +51,9 @@ h2 {
   height: 250px;
   padding: 10px;
   overflow: hidden;
-  right:0;
-  bottom:10px;
-  background-color: #F2F2F2;
+  right: 0;
+  bottom: 10px;
+  background-color: #f2f2f2;
 }
 
 .img {
@@ -69,7 +68,7 @@ h2 {
   right: 60%;
   top: 68%;
   bottom: 30%;
-  color:black;
+  color: black;
   border-radius: 4px;
 }
 
@@ -149,14 +148,13 @@ h3 {
   bottom: 30%;
 }
 
-
 /**----------Chambre 2-------------------------*/
 
 .text1 {
   display: flex;
   align-items: left;
-  position:absolute;
-  color:black;
+  position: absolute;
+  color: black;
   left: 15%;
   right: 60%;
   top: 135%;
@@ -165,9 +163,9 @@ h3 {
   height: 250px;
   padding: 10px;
   overflow: hidden;
-  right:0;
-  bottom:10px;
-  background-color: #F2F2F2;
+  right: 0;
+  bottom: 10px;
+  background-color: #f2f2f2;
 }
 
 .btnON1 {
@@ -176,7 +174,7 @@ h3 {
   right: 60%;
   top: 173%;
   bottom: 20%;
-  color:black;
+  color: black;
   border-radius: 4px;
 }
 
@@ -205,18 +203,17 @@ h3 {
 
 .img1 {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
 }
-
 
 /**--------Chambre 3-----------------------------*/
 
 .text2 {
   display: flex;
   align-items: left;
-  position:absolute;
-  color:black;
+  position: absolute;
+  color: black;
   left: 15%;
   right: 60%;
   top: 240%;
@@ -225,9 +222,9 @@ h3 {
   height: 250px;
   padding: 10px;
   overflow: hidden;
-  right:0;
-  bottom:10px;
-  background-color: #F2F2F2;
+  right: 0;
+  bottom: 10px;
+  background-color: #f2f2f2;
 }
 
 .btnON2 {
@@ -236,7 +233,7 @@ h3 {
   right: 60%;
   top: 278%;
   bottom: 30%;
-  color:black;
+  color: black;
   border-radius: 4px;
 }
 
@@ -265,7 +262,7 @@ h3 {
 
 .img2 {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
 }
 
@@ -279,52 +276,89 @@ img[alt*="image_principale_hotel-parimis"] {
   height: auto;
 }
 
-section[data-id="hotel_introduction"] { background-color: #F2F3F5; }
+section[data-id="hotel_introduction"] {
+  background-color: #f2f3f5;
+}
 
-input, select{
+input,
+select {
   margin: 0.5rem;
 }
-#containerForm1{
+#containerForm1 {
   display: flex;
   flex-direction: row;
 }
+
+//////////////////////////
+// Reservation page CSS //
+//////////////////////////
+
+// TODO : remove
+html {
+  // color: red;
+  font-family: OpenSansRegular;
+}
+
+// TODO : essayer sans resize du main ?
+main {
+  width: 1440px;
+  height: 1882px;
+}
+
+// TODO : mettre ce CSS en commun avec page accueil
+.h1_res {
+  /* h1/Bold 38px */
+  font-family: OpenSansRegular;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 52px;
+  text-align: center;
+
+  /* #333333 - Dark Grey */
+  color: #333333;
+}
+
+//////////////
+// Nav CSS //
+/////////////
 
 nav {
   display: flex;
   justify-content: center;
 
   ul {
-      display: flex;
-      justify-content: space-around;
-      list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
 
+    li {
+      flex: 1 0 14.9%;
+      background-color: $background_menu_color;
+      //padding: 15px 0;
+      //line-height: 2;
+      font-family: "Roboto";
+      cursor: pointer;
+      //border: 1px solid $primary_color;
+      transition-duration: $duration;
+      text-align: center;
 
-      li {
-          flex: 1 0 14.9%;
-          background-color: $background_menu_color;
-          //padding: 15px 0;
-          //line-height: 2;
-          font-family: 'Roboto';
-          cursor: pointer;
-          //border: 1px solid $primary_color;
-          transition-duration: $duration;
-          text-align: center;
-
-          a {
-              //display: block;
-              color: $background_text_menu_color;
-              text-decoration: none;
-              //font-size: 1.5em;
-          }
-
-          &:hover, &.active {
-              background-color: $background_text_menu_color;
-              color: $primary_color;
-
-              a {
-                  color: $primary_color;
-              }
-          }
+      a {
+        //display: block;
+        color: $background_text_menu_color;
+        text-decoration: none;
+        //font-size: 1.5em;
       }
+
+      &:hover,
+      &.active {
+        background-color: $background_text_menu_color;
+        color: $primary_color;
+
+        a {
+          color: $primary_color;
+        }
+      }
+    }
   }
 }

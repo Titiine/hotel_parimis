@@ -1,6 +1,6 @@
 /*  Fichier scss de fonts */
 
-    // Exemple de codes pour ajouter des fontes : à supprimer si besoin
+// Exemple de codes pour ajouter des fontes : à supprimer si besoin
 
 // @font-face {
 //     font-family: 'Roboto';
@@ -20,5 +20,21 @@
 // @font-face {
 //     font-family: 'Playfair Bold';
 //     src: url("../fonts/playfair/PlayfairDisplay-Bold.ttf") format("ttf");
+//     font-display: swap;
+// }
+
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("../fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSansBold";
+    src: url("../fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.woff") format("woff");
+    font-display: swap;
+}
+// @font-face {
+//     font-family: 'Italic';
+//     src: url("../fonts/") format("woff");
 //     font-display: swap;
 // }
