@@ -1,6 +1,7 @@
 /*  Fichier scss principal (main) : La mise en forme générale se fait ici */
 
 
+<<<<<<< HEAD
 .container {
   display: flex;
   width: 1200px;
@@ -13,6 +14,20 @@
 }
 
 
+=======
+
+.container {
+  display: flex;
+  width: 1600px;
+  height: 550px;
+  right: 130%;
+  left: 150%;
+  background-color: #F2F2F2; 
+}
+
+
+
+>>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
 footer {
   position: absolute;
   width: 1600px;
@@ -27,17 +42,26 @@ footer {
   bottom: 0;
 }
 
+<<<<<<< HEAD
 footer .footer__social .footer__social-item {
   font-size: 30px;
   color: rgba(59, 89, 152, 0.5);
+=======
+
+/**footer .footer__social .footer__social-item {
+  font-size: 20px;
+  color: red;
+>>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   cursor: pointer;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
 }
 
 footer .footer__social .footer__social-item:hover {
-  color: #3b5998;
-}
+  color: blue;
+}*/
+
+
 
 .sn {
   display: flex;
@@ -138,15 +162,41 @@ h2 {
   bottom: 30%;
 }
 
+<<<<<<< HEAD
 .fa-facebook {
+=======
+ /*.fab {
+>>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
+  position: absolute;
+  font-size: 20px;
+  left: 60%;
+  right: 60%;
+  top: 45%;
+  bottom: 30%;
+<<<<<<< HEAD
+}
+
+.fa-linkedin {
+=======
+  color: blue;
+  }*/
+
+  .fab:hover{
+    color: orange;
+  }
+
+  .fa-facebook {
+  color: #3B5998;
   position: absolute;
   left: 60%;
   right: 60%;
   top: 45%;
   bottom: 30%;
-}
+    }
 
-.fa-linkedin {
+ .fa-linkedin{
+  color: #3B5998;
+>>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   position: absolute;
   left: 75%;
   right: 60%;
@@ -154,7 +204,12 @@ h2 {
   bottom: 30%;
 }
 
+<<<<<<< HEAD
 .fa-twitter {
+=======
+ .fa-twitter{
+  color: #3B5998;
+>>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   position: absolute;
   left: 67.5%;
   right: 60%;
@@ -171,10 +226,24 @@ h2 {
 }
 
 
+<<<<<<< HEAD
+=======
+ .fa-instagram{
+  color: #3B5998;
+  position: absolute;
+  left: 82.5%;
+  right: 60%;
+  top: 45%;
+  bottom: 30%;
+ }
+
+ 
+>>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
 /**----------Chambre 2-------------------------*/
 
 .container1 {
   display: flex;
+<<<<<<< HEAD
   width: 1200px;
   height: 550px;
   right: 30%;
@@ -183,6 +252,15 @@ h2 {
   margin-top: 190px;
 }
 
+=======
+  width: 1600px;
+  height: 550px;
+  right: 30%;
+  left: 50%;
+  background-color: #F2F2F2;
+  margin-top: 265px;
+}
+>>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
 
 .text1 {
   display: flex;
@@ -257,7 +335,23 @@ h2 {
   margin-top: 260px;
 }
 
+<<<<<<< HEAD
 .text2 {
+=======
+ .container2 {
+  display: flex;
+  width: 1600px;
+  height: 550px;
+  top: 580%;
+  right: 30%;
+  left: 50%;
+  bottom: 100%;
+  background-color: #F2F2F2;
+  margin-top: 260px;
+}
+
+ .text2 {
+>>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   display: flex;
   align-items: left;
   position:absolute;
