@@ -3,12 +3,13 @@
 
 .container {
   display: flex;
-  width: 1600px;
+  width: 1200px;
   height: 550px;
-  top: 35%;
-  right: 130%;
-  left: 150%;
+  margin-top: 1.15%;
+  right: 50%;
+  margin-left: 12%;
   background-color: #F2F2F2; 
+  border: goldenrod 2px solid; 
 }
 
 
@@ -27,7 +28,7 @@ footer {
 }
 
 footer .footer__social .footer__social-item {
-  font-size: 20px;
+  font-size: 30px;
   color: rgba(59, 89, 152, 0.5);
   cursor: pointer;
   -webkit-transition-duration: 500ms;
@@ -44,7 +45,7 @@ footer .footer__social .footer__social-item:hover {
   align-items:flex-end;
 }
 
-h2 {
+h1 {
   color:black;
   text-align: center;
   font-weight: 100;
@@ -57,7 +58,7 @@ h2 {
   color:black;
   left: 15%;
   right: 60%;
-  top: 30%;
+  top: 40%;
   bottom: 60%;
   width: 340px;
   height: 250px;
@@ -74,11 +75,11 @@ h2 {
   justify-content: center;
 }
 
-.btnON {
+.btnon {
   position: absolute;
   left: 15%;
   right: 60%;
-  top: 68%;
+  top: 78%;
   bottom: 30%;
   color:black;
   border-radius: 4px;
@@ -95,7 +96,7 @@ h2 {
   position: absolute;
   left: 15%;
   right: 60%;
-  top: 5%;
+  top: 35%;
   bottom: 0%;
 }
 
@@ -103,21 +104,22 @@ h2 {
   position: absolute;
   left: 15%;
   right: 60%;
-  top: 45%;
+  top: 65%;
   bottom: 0%;
 }
 
 .title {
   position: absolute;
-  left: 22%;
-  right: 60%;
-  top: 20%;
+  left: 12%;
+  right:60%;
+  top: 30%;
   bottom: 30%;
 }
 
-h3 {
+h2 {
   width: 400px;
   height: 52px;
+ 
 }
 
 .img {
@@ -173,12 +175,12 @@ h3 {
 
 .container1 {
   display: flex;
-  width: 1600px;
+  width: 1200px;
   height: 550px;
   right: 30%;
-  left: 50%;
+  margin-left: 12%;
   background-color: #F2F2F2;
-  margin-top: 265px;
+  margin-top: 190px;
 }
 
 
@@ -200,7 +202,7 @@ h3 {
   background-color: #F2F2F2;
 }
 
-.btnON1 {
+.btnon1 {
   position: absolute;
   left: 15%;
   right: 60%;
@@ -219,7 +221,7 @@ h3 {
 
 .title1 {
   position: absolute;
-  left: 22%;
+  left: 12%;
   right: 60%;
   top: 125%;
   bottom: 30%;
@@ -245,12 +247,12 @@ h3 {
 
 .container2 {
   display: flex;
-  width: 1600px;
+  width: 1200px;
   height: 550px;
   top: 580%;
   right: 30%;
-  left: 50%;
-  bottom: 100%;
+  margin-left: 12%;
+  bottom: 160%;
   background-color: #F2F2F2;
   margin-top: 260px;
 }
@@ -273,7 +275,7 @@ h3 {
   background-color: #F2F2F2;
 }
 
-.btnON2 {
+.btnon2 {
   position: absolute;
   left: 15%;
   right: 60%;
@@ -292,7 +294,7 @@ h3 {
 
 .title2 {
   position: absolute;
-  left: 22%;
+  left: 12%;
   right: 60%;
   top: 230%;
   bottom: 30%;
@@ -321,11 +323,11 @@ h3 {
 
 .container3 {
   display: flex;
-  width: 1600px;
+  width: 1200px;
   height: 550px;
   top: 580%;
   right: 30%;
-  left: 50%;
+  margin-left: 12%;
   bottom: 100%;
   background-color: #F2F2F2;
   margin-top: 260px;
@@ -349,7 +351,7 @@ h3 {
   background-color: #F2F2F2;
 }
 
-.btnON3 {
+.btnon3 {
   position: absolute;
   left: 15%;
   right: 60%;
@@ -368,7 +370,7 @@ h3 {
 
 .title3 {
   position: absolute;
-  left: 22%;
+  left: 12%;
   right: 60%;
   top: 335%;
   bottom: 30%;
