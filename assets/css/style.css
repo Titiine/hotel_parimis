@@ -2,12 +2,24 @@
 /*  Fichier style.scss : ne mettre que les imports ici */
 /*  Fichier scss de variables */
 /*  Fichier scss de fonts */
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("../fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.woff") format("woff");
+  font-display: swap;
+}
+
 /*  Fichier scss principal (main) : La mise en forme générale se fait ici */
 footer {
   position: absolute;
   width: 1600px;
   height: 150px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   min-height: 50px;
   top: 300%;
   bottom: 0;
@@ -72,7 +84,7 @@ h2 {
   overflow: hidden;
   right: 0;
   bottom: 10px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .img {
@@ -193,7 +205,7 @@ h3 {
   overflow: hidden;
   right: 0;
   bottom: 10px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .btnON1 {
@@ -261,7 +273,7 @@ h3 {
   overflow: hidden;
   right: 0;
   bottom: 10px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .btnON2 {
@@ -321,10 +333,11 @@ img[alt*="image_principale_hotel-parimis"] {
 }
 
 section[data-id="hotel_introduction"] {
-  background-color: #F2F3F5;
+  background-color: #f2f3f5;
 }
 
-input, select {
+input,
+select {
   margin: 0.5rem;
 }
 
@@ -338,7 +351,136 @@ input, select {
           flex-direction: row;
 }
 
+main {
+  font-family: OpenSansRegular;
+  font-size: 13px;
+  width: 1100px;
+  height: 1882px;
+}
+
+.h1_res {
+  font-family: OpenSansBold;
+  font-size: 30px;
+  line-height: 52px;
+  text-align: center;
+  /* #333333 - Dark Grey */
+  color: #333333;
+}
+
+.h2_res {
+  /* Description */
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 2rem auto 1rem 8rem;
+  /* Black */
+  color: #000000;
+}
+
+.mainFieldset {
+  width: 80vw;
+  margin-left: 5rem;
+  border: none;
+}
+
+.textFormDetails {
+  margin: 2rem auto 1rem 10rem;
+}
+
+.paymentContainer {
+  margin: 2rem auto 1rem 5rem;
+}
+
+.arrivalFieldSet {
+  margin: 2rem auto 3rem 4rem;
+  padding: 1.5rem;
+  background-color: #f7f5f5;
+  border: none;
+}
+
+.text_before_select {
+  font-weight: bold;
+}
+
+.input_roll_darker, .input_form {
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+}
+
+.input_roll_darker {
+  border-style: none;
+  /* Gray 5 */
+  background: #E0E0E0;
+}
+
+.input_form {
+  border-width: 0.07rem;
+  width: 15rem;
+}
+
+.input_form_name, .input_form_email {
+  margin-right: 3rem;
+}
+
+.input_form_adress {
+  margin-top: 2rem;
+  width: 36rem;
+}
+
+select {
+  width: 20rem;
+}
+
+.cta_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+}
+
+.cta {
+  /* Gray 6 */
+  color: #F2F2F2;
+  /* Gray 1 */
+  background: #333333;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 0.8rem 3rem;
+}
+
+.price {
+  margin-right: 10rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.paymentRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
 nav {
+  font-family: OpenSansRegular;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -361,7 +503,6 @@ nav ul li {
       -ms-flex: 1 0 14.9%;
           flex: 1 0 14.9%;
   background-color: white;
-  font-family: 'Roboto';
   cursor: pointer;
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
