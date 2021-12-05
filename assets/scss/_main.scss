@@ -293,25 +293,25 @@ select {
 // Reservation page CSS //
 //////////////////////////
 
-// TODO : remove
+// TODO : remove (or put on the top of the file)
 html {
-  // color: red;
-  font-family: OpenSansRegular;
+  // font-family: OpenSansRegular;
+  // font-size: 13px;
 }
 
-// TODO : essayer sans resize du main ?
+// TODO : try without resizing the main?
 main {
-  width: 1440px;
+  font-family: OpenSansRegular;
+  font-size: 13px;
+
+  width: 1100px;
   height: 1882px;
 }
 
 // TODO : mettre ce CSS en commun avec page accueil
 .h1_res {
-  /* h1/Bold 38px */
-  font-family: OpenSansRegular;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 38px;
+  font-family: OpenSansBold;
+  font-size: 30px;
   line-height: 52px;
   text-align: center;
 
@@ -319,11 +319,115 @@ main {
   color: #333333;
 }
 
+.h2_res {
+  /* Description */
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 2rem auto 1rem 8rem;
+
+  /* Black */
+  color: #000000;
+}
+.mainFieldset{
+  width: 80vw;
+  margin-left: 5rem;
+  border: none;
+}
+.textFormDetails{
+  margin: 2rem auto 1rem 10rem;
+  // display: flex;
+  // flex-direction: column;
+}
+.paymentContainer{
+  margin: 2rem auto 1rem 5rem;
+}
+.arrivalFieldSet{
+  margin: 2rem auto 3rem 4rem;
+  padding: 1.5rem;
+  background-color: #f7f5f5;
+  border: none;
+}
+.arrivalInputForm {
+  // display: flex;
+  // flex-direction: column;
+}
+
+.text_before_select {
+  font-weight: bold;
+}
+
+// Input styles:
+.input_roll_darker, .input_form {
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+}
+.input_roll_darker {
+  border-style: none;
+  /* Gray 5 */
+  background: #E0E0E0;
+}
+.input_form {
+  border-width: 0.07rem;
+  width: 15rem;
+}
+.input_form_name, .input_form_email{
+  margin-right: 3rem;
+}
+.input_form_adress{
+  margin-top: 2rem;
+  width: 36rem;
+}
+
+select {
+  width: 20rem;
+}
+
+.cta_div{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.cta{
+  /* Gray 6 */
+  color: #F2F2F2;
+  /* Gray 1 */
+  background: #333333;
+  border-radius: 5px;
+  font-size: 14px;
+  // font-weight: bold;
+  line-height: 19px;
+  padding: 0.8rem 3rem;
+}
+
+.price{
+  margin-right: 10rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+// display: flex;
+// align-items: center;
+// text-align: center;
+  color: #000000;
+}
+
+.paymentRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 //////////////
 // Nav CSS //
 /////////////
 
 nav {
+  font-family: OpenSansRegular;
   display: flex;
   justify-content: center;
 
@@ -337,7 +441,6 @@ nav {
       background-color: $background_menu_color;
       //padding: 15px 0;
       //line-height: 2;
-      font-family: "Roboto";
       cursor: pointer;
       //border: 1px solid $primary_color;
       transition-duration: $duration;

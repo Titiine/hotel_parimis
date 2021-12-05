@@ -32,29 +32,28 @@
 
     <main>
         <h1 class="h1_res">Réservez une chambre</h1>
-        <h2 class="h2_res">Quand souhaitez-vous arriver ?</h2>
 
         <form action="contact.html" method="POST">
-            <fieldset>
-
-                <fieldset>
+            <fieldset class="mainFieldset">
+                <h2 class="h2_res">Quand souhaitez-vous arriver ?</h2>
+                <fieldset class="arrivalFieldSet">
                     <div id="containerForm1">
-                        <div id="roomOpt">
-                            <label for="room">Chambre souhaitée : </label>
-                            <select name="room" id="room">
+                        <div id="roomOpt" class="arrivalInputForm">
+                            <label for="room" class="text_before_select">Chambre souhaitée : </label>
+                            <select name="room" id="room" class="input_roll_darker input_roll_darker1">
                                 <option value="room1">Chambre supérieure 1</option>
                                 <option value="room2">Chambre supérieure 2</option>
                                 <option value="room3">Suite Azur</option>
                             </select>
                         </div>
 
-                        <div id="inInput">
-                            <label for="booking-in">Date d'arrivée : </label>
-                            <input type="date" name="booking-in">
+                        <div id="inInput" class="arrivalInputForm">
+                            <label for="booking-in" class="text_before_select">Date d'arrivée : </label>
+                            <input type="date" name="booking-in" class="input_roll_darker">
                         </div>
-                        <div id="outInput">
-                            <label for="booking-out">Date de départ : </label>
-                            <input type="date" name="booking-out">
+                        <div id="outInput" class="arrivalInputForm">
+                            <label for="booking-out" class="text_before_select">Date de départ : </label>
+                            <input type="date" name="booking-out" class="input_roll_darker">
                         </div>
 
                     </div>
@@ -63,35 +62,48 @@
 
                 <div>
                     <h2 class="h2_res">Informations hôte</h2>
-
-                    <div>
-                        <input type="text" name="username" id="username" placeholder="Votre nom*" required>
-                        <input type="text" name="firstname" id="firstname" placeholder="Prénom*" required>
+                    <div class="textFormDetails">
+                        <div>
+                            <input class="input_form input_form_name" type="text" name="username" id="username" placeholder="Votre nom*" required>
+                            <input class="input_form" type="text" name="firstname" id="firstname" placeholder="Prénom*" required>
+                        </div>
+    
+                        <div>
+                            <input class="input_form input_form_email" type="email" name="email" id="email" placeholder="Votre Email*" required>
+                            <input class="input_form" type="tel" name="tel" id="tel" placeholder="Téléphone*" required>
+                        </div>
+                        <div>
+                            <input class="input_form input_form_adress" type="text" name="adress" id="adress" placeholder="Adresse*" required>
+                        </div>
+                        <div>
+                            <input class="input_form" type="text" name="city" id="city" placeholder="Ville*" required>
+                        </div>
                     </div>
+                    
 
-                    <div>
-                        <input type="email" name="email" id="email" placeholder="Votre Email*" required>
-                        <input type="tel" name="tel" id="tel" placeholder="Téléphone*" required>
+                    <h2 class="h2_res">Moyen de paiement</h2>
+
+                    <div class="paymentContainer">
+                        <div class="paymentRow">
+                            <div>
+                                <select name="payment" id="payment" class="input_roll_darker">
+                                    <option value="VISA">Visa</option>
+                                    <option value="Mastercard">Mastercard</option>
+                                    <option value="Carte bleue">Carte bleue</option>
+                                </select>        
+                            </div>
+                        
+                            <div>
+                                <label class="price">Prix TTC : 2300€</label>
+                            </div>      
+                        </div>
+
+                        <!--<button type="submit">Envoyer</button>-->
+                        <div class="cta_div">
+                            <input class="cta" role="button" type="submit" name="submit" value="Réserver">
+                        </div>
                     </div>
-                    <div>
-                        <input type="text" name="adress" id="adress" placeholder="Adresse*" required>
-                        <input type="text" name="city" id="city" placeholder="Ville*" required>
-                    </div>
-
-                    <div>
-                        <h2 class="h2_res">Moyen de paiement</h2>
-                        <select name="payment" id="payment">
-                            <option value="VISA">VISA</option>
-                            <option value="Mastercard">Mastercard</option>
-                            <option value="Carte bleue">Carte bleue</option>
-                        </select>
-                    </div>
-
-
                 </div>
-                <!--<button type="submit">Envoyer</button>-->
-                <input role="button" type="submit" name="submit" value="Envoyer">
-
             </fieldset>
         </form>
     </main>
