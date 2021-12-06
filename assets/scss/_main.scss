@@ -3,12 +3,13 @@
 
 .container {
   display: flex;
-  width: 1600px;
+  width: 1200px;
   height: 550px;
-  top: 35%;
-  right: 130%;
-  left: 150%;
-  background-color: #F2F2F2;
+  margin-top: 1.15%;
+  right: 50%;
+  margin-left: 12%;
+  background-color: #F2F2F2; 
+  border: goldenrod 2px solid; 
 }
 
 
@@ -25,11 +26,12 @@ footer {
 }
 
 footer .footer__social .footer__social-item {
-    font-size: 20px;
-    color: rgba(59, 89, 152, 0.5);
-    cursor: pointer;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
+
+  font-size: 30px;
+  color: rgba(59, 89, 152, 0.5);
+  cursor: pointer;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
 }
 
 footer .footer__social .footer__social-item:hover {
@@ -42,29 +44,29 @@ footer .footer__social .footer__social-item:hover {
     align-items:flex-end;
 }
 
-h2 {
-    color:black;
-    text-align: center;
-    font-weight: 100;
+
+h1 {
+  color:black;
+  text-align: center;
+  font-weight: 100;
 }
 
 .text {
-    display: flex;
-    align-items: left;
-    position:absolute;
-    color:black;
-    left: 15%;
-    right: 60%;
-    top: 30%;
-    bottom: 60%;
-    width: 340px;
-    height: 250px;
-    padding: 10px;
-    overflow: hidden;
-    right:0;
-    bottom:10px;
-    background-color: #F2F2F2;
-}
+  display: flex;
+  align-items: left;
+  position:absolute;
+  color:black;
+  left: 15%;
+  right: 60%;
+  top: 40%;
+  bottom: 60%;
+  width: 340px;
+  height: 250px;
+  padding: 10px;
+  overflow: hidden;
+  right:0;
+  bottom:10px;
+  background-color: #F2F2F2;
 
 .img {
     display: flex;
@@ -72,14 +74,16 @@ h2 {
     justify-content: center;
 }
 
-.btnON {
-    position: absolute;
-    left: 15%;
-    right: 60%;
-    top: 68%;
-    bottom: 30%;
-    color:black;
-    border-radius: 4px;
+
+.btnon {
+  position: absolute;
+  left: 15%;
+  right: 60%;
+  top: 78%;
+  bottom: 30%;
+  color:black;
+  border-radius: 4px;
+
 }
 
 .btn {
@@ -90,33 +94,34 @@ h2 {
 }
 
 .titfoot {
-    position: absolute;
-    left: 15%;
-    right: 60%;
-    top: 5%;
-    bottom: 0%;
+
+  position: absolute;
+  left: 15%;
+  right: 60%;
+  top: 35%;
+  bottom: 0%;
 }
 
 .copy {
-    position: absolute;
-    left: 15%;
-    right: 60%;
-    top: 45%;
-    bottom: 0%;
+  position: absolute;
+  left: 15%;
+  right: 60%;
+  top: 65%;
+  bottom: 0%;
 }
 
 .title {
-    position: absolute;
-    left: 22%;
-    right: 60%;
-    top: 20%;
-    bottom: 30%;
+  position: absolute;
+  left: 12%;
+  right:60%;
+  top: 30%;
+  bottom: 30%;
 }
 
-h3 {
-    width: 400px;
-    height: 52px;
-}
+h2 {
+  width: 400px;
+  height: 52px;
+ }
 
 .img {
     position: absolute;
@@ -171,12 +176,12 @@ h3 {
 
 .container1 {
   display: flex;
-  width: 1600px;
+  width: 1200px;
   height: 550px;
   right: 30%;
-  left: 50%;
+  margin-left: 12%;
   background-color: #F2F2F2;
-  margin-top: 265px;
+  margin-top: 190px;
 }
 
 
@@ -198,14 +203,15 @@ h3 {
     background-color: #F2F2F2;
 }
 
-.btnON1 {
-    position: absolute;
-    left: 15%;
-    right: 60%;
-    top: 173%;
-    bottom: 20%;
-    color:black;
-    border-radius: 4px;
+
+.btnon1 {
+  position: absolute;
+  left: 15%;
+  right: 60%;
+  top: 173%;
+  bottom: 20%;
+  color:black;
+  border-radius: 4px;
 }
 
 .btn1 {
@@ -216,11 +222,12 @@ h3 {
 }
 
 .title1 {
-    position: absolute;
-    left: 22%;
-    right: 60%;
-    top: 125%;
-    bottom: 30%;
+  position: absolute;
+  left: 12%;
+  right: 60%;
+  top: 125%;
+  bottom: 30%;
+
 }
 
 .img1 {
@@ -243,12 +250,12 @@ h3 {
 
 .container2 {
   display: flex;
-  width: 1600px;
+  width: 1200px;
   height: 550px;
   top: 580%;
   right: 30%;
-  left: 50%;
-  bottom: 100%;
+  margin-left: 12%;
+  bottom: 160%;
   background-color: #F2F2F2;
   margin-top: 260px;
 }
@@ -271,15 +278,16 @@ h3 {
     background-color: #F2F2F2;
 }
 
-.btnON2 {
-    position: absolute;
-    left: 15%;
-    right: 60%;
-    top: 278%;
-    bottom: 30%;
-    color:black;
-    border-radius: 4px;
-}
+
+.btnon2 {
+  position: absolute;
+  left: 15%;
+  right: 60%;
+  top: 278%;
+  bottom: 30%;
+  color:black;
+  border-radius: 4px;
+  }
 
 .btn2 {
     background-color: black;
@@ -289,11 +297,11 @@ h3 {
 }
 
 .title2 {
-    position: absolute;
-    left: 22%;
-    right: 60%;
-    top: 230%;
-    bottom: 30%;
+  position: absolute;
+  left: 12%;
+  right: 60%;
+  top: 230%;
+  bottom: 30%;
 }
 
 .img2 {
@@ -491,11 +499,11 @@ section[data-id="hotel_introduction"] { text-align: center; }
 
 .container3 {
   display: flex;
-  width: 1600px;
+  width: 1200px;
   height: 550px;
   top: 580%;
   right: 30%;
-  left: 50%;
+  margin-left: 12%;
   bottom: 100%;
   background-color: #F2F2F2;
   margin-top: 260px;
@@ -519,7 +527,7 @@ section[data-id="hotel_introduction"] { text-align: center; }
   background-color: #F2F2F2;
 }
 
-.btnON3 {
+.btnon3 {
   position: absolute;
   left: 15%;
   right: 60%;
@@ -538,7 +546,7 @@ section[data-id="hotel_introduction"] { text-align: center; }
 
 .title3 {
   position: absolute;
-  left: 22%;
+  left: 12%;
   right: 60%;
   top: 335%;
   bottom: 30%;
