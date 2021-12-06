@@ -2,10 +2,22 @@
 /*  Fichier style.scss : ne mettre que les imports ici */
 /*  Fichier scss de variables */
 /*  Fichier scss de fonts */
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@400&family=Open+Sans&display=swap");
 /*  Fichier scss principal (main) : La mise en forme générale se fait ici */
-footer {
-  position: absolute;
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 1600px;
+  height: 550px;
+  top: 35%;
+  right: 130%;
+  left: 150%;
+  background-color: #F2F2F2;
+}
+
+footer {
   height: 150px;
   background-color: #F2F2F2;
   min-height: 50px;
@@ -173,7 +185,27 @@ h3 {
   bottom: 30%;
 }
 
+.fa-instagram {
+  position: absolute;
+  left: 82.5%;
+  right: 60%;
+  top: 45%;
+  bottom: 30%;
+}
+
 /**----------Chambre 2-------------------------*/
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1600px;
+  height: 550px;
+  right: 30%;
+  left: 50%;
+  background-color: #F2F2F2;
+  margin-top: 265px;
+}
+
 .text1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -242,6 +274,20 @@ h3 {
 }
 
 /**--------Chambre 3-----------------------------*/
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1600px;
+  height: 550px;
+  top: 580%;
+  right: 30%;
+  left: 50%;
+  bottom: 100%;
+  background-color: #F2F2F2;
+  margin-top: 260px;
+}
+
 .text2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -309,21 +355,329 @@ h3 {
           justify-content: center;
 }
 
-figure {
-  margin: 16px 0;
+figure[data-brand="hotel_parimis"] {
+  margin: 0 0 16px 0;
   -o-object-fit: contain;
      object-fit: contain;
+  position: relative;
+  /* Sub-title bloc */
 }
 
-img[alt*="image_principale_hotel-parimis"] {
+figure[data-brand="hotel_parimis"] img[alt="image_principale_hotel-parimis"] {
   width: 100%;
   height: auto;
+  vertical-align: middle;
 }
 
-section[data-id="hotel_introduction"] {
+figure[data-brand="hotel_parimis"] figcaption h1 {
+  position: absolute;
+  bottom: 34%;
+  right: 9%;
+  color: white;
+  font-family: 'Jura', sans-serif;
+  font-size: 75px;
+  font-weight: 600;
+}
+
+figure[data-brand="hotel_parimis"] figcaption h1 + div {
+  position: absolute;
+  bottom: 34%;
+  right: 15.5%;
+  /* Sub-title */
+}
+
+figure[data-brand="hotel_parimis"] figcaption h1 + div strong {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+figure[data-brand="hotel_parimis"] button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #F2B827;
+  background-color: #343434;
+  width: 200px;
+  height: 48px;
+  border-radius: 4px;
+  border-style: none;
+  position: absolute;
+  bottom: 17%;
+  right: 19%;
+}
+
+figure[data-brand="hotel_parimis"] button:active {
+  opacity: 0.89;
+}
+
+.bg-color_grey {
   background-color: #F2F3F5;
 }
 
+section[data-id="hotel_introduction"] {
+  text-align: center;
+}
+
+/* Section data-id="room_presentation" */
+section[data-id="room_presentation"] {
+  padding: 0 5%;
+}
+
+.grid_wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (310px)[4];
+      grid-template-columns: repeat(4, 310px);
+  -ms-grid-rows: 1fr 2fr 3fr;
+      grid-template-rows: 1fr 2fr 3fr;
+  gap: 40px 35px;
+      grid-template-areas: "rooms_intro rooms_intro rooms_intro rooms_intro" "img_room1 img_room2 img_room3 img_room4" "detail_room1 detail_room2 detail_room3 detail_room4";
+}
+
+.rooms_intro {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: rooms_intro;
+  text-align: center;
+}
+
+.rooms_intro h2 {
+  width: 432px;
+  height: 52px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: #444;
+}
+
+.rooms_intro b {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #444;
+}
+
+.img_room1 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: img_room1;
+}
+
+.img_room2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: img_room2;
+}
+
+.img_room3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: img_room3;
+}
+
+.img_room4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: img_room4;
+}
+
+.detail_room1 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: detail_room1;
+}
+
+.detail_room2 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: detail_room2;
+}
+
+.detail_room3 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: detail_room3;
+}
+
+.detail_room4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+  grid-area: detail_room4;
+}
+
+.detail_room1 h3, .detail_room2 h3, .detail_room3 h3, .detail_room4 h3 {
+  padding-left: 24px;
+}
+
+.detail_room1 h3 + div, .detail_room2 h3 + div, .detail_room3 h3 + div, .detail_room4 h3 + div {
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-container button {
+  width: 184px;
+  height: 48px;
+  color: #F2B827;
+  background-color: #000000;
+  border-radius: 4px;
+  border-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* end_ Section data-id="room_presentation" */
+#email, #story {
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+#email {
+  width: 280px;
+  height: 40px;
+}
+
+.contact_flex-container {
+  margin-top: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact_flex-item {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  width: 360px;
+  height: 64px;
+  text-align: center;
+}
+
+.contact-btn {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.contact_flex-item:first-child button {
+  color: #F2B827;
+  background-color: #000000;
+}
+
+/* 3rd .contact_flex-item child only from its parent */
+.contact_flex-item:nth-child(3) button {
+  background-color: #F2F3F5;
+}
+
+/**********************************Chambre 4 **********************************/
+.container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1600px;
+  height: 550px;
+  top: 580%;
+  right: 30%;
+  left: 50%;
+  bottom: 100%;
+  background-color: #F2F2F2;
+  margin-top: 260px;
+}
+
+.text3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  position: absolute;
+  color: black;
+  left: 15%;
+  right: 60%;
+  top: 345%;
+  bottom: 60%;
+  width: 340px;
+  height: 250px;
+  padding: 10px;
+  overflow: hidden;
+  right: 0;
+  bottom: 10px;
+  background-color: #F2F2F2;
+}
+
+.btnON3 {
+  position: absolute;
+  left: 15%;
+  right: 60%;
+  top: 383%;
+  bottom: 30%;
+  color: black;
+  border-radius: 4px;
+}
+
+.btn3 {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 48px;
+}
+
+.title3 {
+  position: absolute;
+  left: 22%;
+  right: 60%;
+  top: 335%;
+  bottom: 30%;
+}
+
+.img3 {
+  position: absolute;
+  left: 60%;
+  right: 60%;
+  top: 360%;
+  bottom: 30%;
+}
+
+.img3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/***************************************************Nav*************************************************/
 input, select {
   margin: 0.5rem;
 }
