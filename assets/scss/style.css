@@ -5,7 +5,6 @@
 /*  Fichier scss principal (main) : La mise en forme générale se fait ici */
 .container {
   display: flex;
-<<<<<<< HEAD
   width: 1200px;
   height: 550px;
   margin-top: 1.15%;
@@ -13,13 +12,6 @@
   margin-left: 12%;
   background-color: #F2F2F2;
   border: goldenrod 2px solid;
-=======
-  width: 1600px;
-  height: 550px;
-  right: 130%;
-  left: 150%;
-  background-color: #F2F2F2;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
 }
 
 footer {
@@ -28,20 +20,14 @@ footer {
   height: 150px;
   background-color: #F2F2F2;
   min-height: 50px;
-<<<<<<< HEAD
   top: 420%;
   bottom: 0%;
-=======
-  top: 300%;
-  bottom: 0;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   display: flex;
   justify-content: center;
   align-items: center;
   bottom: 0;
 }
 
-<<<<<<< HEAD
 footer .footer__social .footer__social-item {
   font-size: 30px;
   color: rgba(59, 89, 152, 0.5);
@@ -53,30 +39,13 @@ footer .footer__social .footer__social-item:hover {
   color: #3b5998;
 }
 
-=======
-/**footer .footer__social .footer__social-item {
-  font-size: 20px;
-  color: red;
-  cursor: pointer;
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-}
-
-footer .footer__social .footer__social-item:hover {
-  color: blue;
-}*/
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
 .sn {
   display: flex;
   justify-content: end;
   align-items: flex-end;
 }
 
-<<<<<<< HEAD
 h1 {
-=======
-h2 {
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   color: black;
   text-align: center;
   font-weight: 100;
@@ -89,11 +58,7 @@ h2 {
   color: black;
   left: 15%;
   right: 60%;
-<<<<<<< HEAD
   top: 40%;
-=======
-  top: 30%;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   bottom: 60%;
   width: 340px;
   height: 250px;
@@ -110,19 +75,11 @@ h2 {
   justify-content: center;
 }
 
-<<<<<<< HEAD
 .btnon {
   position: absolute;
   left: 15%;
   right: 60%;
   top: 78%;
-=======
-.btnON {
-  position: absolute;
-  left: 15%;
-  right: 60%;
-  top: 68%;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   bottom: 30%;
   color: black;
   border-radius: 4px;
@@ -139,11 +96,7 @@ h2 {
   position: absolute;
   left: 15%;
   right: 60%;
-<<<<<<< HEAD
   top: 35%;
-=======
-  top: 5%;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   bottom: 0%;
 }
 
@@ -151,17 +104,12 @@ h2 {
   position: absolute;
   left: 15%;
   right: 60%;
-<<<<<<< HEAD
   top: 65%;
-=======
-  top: 45%;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   bottom: 0%;
 }
 
 .title {
   position: absolute;
-<<<<<<< HEAD
   left: 12%;
   right: 60%;
   top: 30%;
@@ -169,15 +117,6 @@ h2 {
 }
 
 h2 {
-=======
-  left: 22%;
-  right: 60%;
-  top: 20%;
-  bottom: 30%;
-}
-
-h3 {
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   width: 400px;
   height: 52px;
 }
@@ -186,11 +125,7 @@ h3 {
   position: absolute;
   left: 60%;
   right: 60%;
-<<<<<<< HEAD
   top: 40%;
-=======
-  top: 20%;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   bottom: 30%;
 }
 
@@ -202,25 +137,7 @@ h3 {
   bottom: 30%;
 }
 
-<<<<<<< HEAD
 .fa-facebook {
-=======
-/*.fab {
- position: absolute;
- font-size: 20px;
- left: 60%;
- right: 60%;
- top: 45%;
- bottom: 30%;
- color: blue;
- }*/
-.fab:hover {
-  color: orange;
-}
-
-.fa-facebook {
-  color: #3B5998;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   position: absolute;
   left: 60%;
   right: 60%;
@@ -229,10 +146,6 @@ h3 {
 }
 
 .fa-linkedin {
-<<<<<<< HEAD
-=======
-  color: #3B5998;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   position: absolute;
   left: 75%;
   right: 60%;
@@ -241,10 +154,6 @@ h3 {
 }
 
 .fa-twitter {
-<<<<<<< HEAD
-=======
-  color: #3B5998;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   position: absolute;
   left: 67.5%;
   right: 60%;
@@ -253,10 +162,6 @@ h3 {
 }
 
 .fa-instagram {
-<<<<<<< HEAD
-=======
-  color: #3B5998;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   position: absolute;
   left: 82.5%;
   right: 60%;
@@ -267,21 +172,12 @@ h3 {
 /**----------Chambre 2-------------------------*/
 .container1 {
   display: flex;
-<<<<<<< HEAD
   width: 1200px;
   height: 550px;
   right: 30%;
   margin-left: 12%;
   background-color: #F2F2F2;
   margin-top: 190px;
-=======
-  width: 1600px;
-  height: 550px;
-  right: 30%;
-  left: 50%;
-  background-color: #F2F2F2;
-  margin-top: 265px;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
 }
 
 .text1 {
@@ -302,11 +198,7 @@ h3 {
   background-color: #F2F2F2;
 }
 
-<<<<<<< HEAD
 .btnon1 {
-=======
-.btnON1 {
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   position: absolute;
   left: 15%;
   right: 60%;
@@ -325,11 +217,7 @@ h3 {
 
 .title1 {
   position: absolute;
-<<<<<<< HEAD
   left: 12%;
-=======
-  left: 22%;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   right: 60%;
   top: 125%;
   bottom: 30%;
@@ -352,21 +240,12 @@ h3 {
 /**--------Chambre 3-----------------------------*/
 .container2 {
   display: flex;
-<<<<<<< HEAD
   width: 1200px;
   height: 550px;
   top: 580%;
   right: 30%;
   margin-left: 12%;
   bottom: 160%;
-=======
-  width: 1600px;
-  height: 550px;
-  top: 580%;
-  right: 30%;
-  left: 50%;
-  bottom: 100%;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   background-color: #F2F2F2;
   margin-top: 260px;
 }
@@ -389,11 +268,7 @@ h3 {
   background-color: #F2F2F2;
 }
 
-<<<<<<< HEAD
 .btnon2 {
-=======
-.btnON2 {
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   position: absolute;
   left: 15%;
   right: 60%;
@@ -412,11 +287,7 @@ h3 {
 
 .title2 {
   position: absolute;
-<<<<<<< HEAD
   left: 12%;
-=======
-  left: 22%;
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
   right: 60%;
   top: 230%;
   bottom: 30%;
@@ -435,7 +306,6 @@ h3 {
   align-items: center;
   justify-content: center;
 }
-<<<<<<< HEAD
 
 /**********************************Chambre 4 **********************************/
 .container3 {
@@ -560,8 +430,6 @@ nav ul li:hover, nav ul li.active {
 nav ul li:hover a, nav ul li.active a {
   color: #daa520;
 }
-=======
->>>>>>> 3d76e401ef03a22bb31ea51f5218de3a971c3517
 
 /*  Fichier scss de mixin (bouts de code à rappeler, pour ne faire de duplication) */
 /*  Fichier scss pour le responsive (tablet) */
