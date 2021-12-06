@@ -325,6 +325,79 @@ figure[data-brand="hotel_parimis"] {
 
 section[data-id="hotel_introduction"] { text-align: center; }
 
+/* Section data-id="room_presentation" */
+ section[data-id="room_presentation"] { padding: 0 5%; }
+.grid_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 310px);
+    grid-template-rows: 1fr 2fr 3fr;
+    gap: 40px 35px;
+    grid-template-areas:
+    "rooms_intro rooms_intro rooms_intro rooms_intro"
+    "img_room1 img_room2 img_room3 img_room4"
+    "detail_room1 detail_room2 detail_room3 detail_room4";
+}
+
+.rooms_intro {
+    grid-area: rooms_intro;
+    text-align: center;
+
+    h2 {
+        width: 432px;
+        height: 52px;
+        margin: 0 auto;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 38px;
+        font-weight: 700;
+        color: #444;
+    }
+
+    b {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: #444;
+    }
+}
+
+.img_room1 { grid-area: img_room1; }
+.img_room2 { grid-area: img_room2; }
+.img_room3 { grid-area: img_room3; }
+.img_room4 { grid-area: img_room4; }
+
+.detail_room1 { grid-area: detail_room1; }
+.detail_room2 { grid-area: detail_room2; }
+.detail_room3 { grid-area: detail_room3; }
+.detail_room4 { grid-area: detail_room4; }
+
+.detail_room1, .detail_room2, .detail_room3, .detail_room4 {
+    h3 { padding-left: 24px; }
+
+    h3 + div {
+        text-align: justify;
+        margin-bottom: 16px;
+    }
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    button {
+        width: 184px;
+        height: 48px;
+        color: #F2B827;
+        background-color: #000000;
+        border-radius: 4px;
+        border-style: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+/* end_ Section data-id="room_presentation" */
+
 #email, #story {
     border: 1px solid #000000;
     border-radius: 5px;
