@@ -16,14 +16,14 @@
         <!-- Navbar area -->
         <nav class="desktop">
             <ul>
-                <li class="active"><a href="index.html" title="Accueil"><span class="material-icons-outlined">home</span></a></li>
+                <li><a href="index.html" title="Accueil"><span class="material-icons-outlined">home</span></a></li>
                 <li><a href="index.html" title="Hôtel Parimis">Hôtel Parimis</a></li>
                 <li><a href="chambre.html" title="Chambres">Chambres</a></li>
                 <li><a href="#paris" title="Découvrir Paris">Découvrir Paris</a></li>
-                <li><a href="#contact" title="Contact">Contact</a></li>
+                <li><a href="index.html#contact_us" title="Contact">Contact</a></li>
                 <li><a href="#reservations" title="Mes réservations">Mes réservations</a></li>
                 <li><a href="#" title="Langue">FR</a></li>
-                <li><a href="reservation.html" title="Réserver">Réserver</a></li>
+                <li class="active"><a href="reservation.html" title="Réserver">Réserver</a></li>
             </ul>
         </nav>
         <!-- Navbar area -->
@@ -32,13 +32,13 @@
 
     <h1>Réservez une chambre</h1>
     <h3>Quand souhaitez-vous arriver ?</h3>
-    
+
   <form action="contact.html" method="POST">
     <fieldset>
 
-      <fieldset>        
+      <fieldset>
         <div id="containerForm1">
-            <div id="roomOpt">                
+            <div id="roomOpt">
                 <label for="room">Chambre souhaitée : </label>
                 <select name="room" id="room">
                     <option value="room1">Chambre supérieure 1</option>
@@ -62,19 +62,19 @@
 
       <div>
           <h3>Informations hôte</h3>
-          
-          <div>        
-            <input type="text" name="username" id="username" placeholder="Votre nom*" required>        
+
+          <div>
+            <input type="text" name="username" id="username" placeholder="Votre nom*" required>
             <input type="text" name="firstname" id="firstname" placeholder="Prénom*" required>
         </div>
 
         <div>
-            <input type="email" name="email" id="email" placeholder="Votre Email*" required>        
-            <input type="tel" name="tel" id="tel" placeholder="Téléphone*" required>            
+            <input type="email" name="email" id="email" placeholder="Votre Email*" required>
+            <input type="tel" name="tel" id="tel" placeholder="Téléphone*" required>
         </div>
         <div>
-            <input type="text" name="adress" id="adress" placeholder="Adresse*" required>        
-            <input type="text" name="city" id="city" placeholder="Ville*" required>            
+            <input type="text" name="adress" id="adress" placeholder="Adresse*" required>
+            <input type="text" name="city" id="city" placeholder="Ville*" required>
         </div>
 
         <div>
@@ -90,7 +90,7 @@
       </div>
       <!--<button type="submit">Envoyer</button>-->
       <input role="button" type="submit" name="submit" value="Envoyer">
-      
+
     </fieldset>
   </form>
 </main>
